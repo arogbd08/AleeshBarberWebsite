@@ -1,0 +1,127 @@
+:root {
+	--primary-color: #19181b; /* Primary color */
+	--secondary-color: #836c6c; /* Secondary color */
+	--background-color: #000000; /* Background color */
+}
+
+header {
+	left: 0;
+	top: 0;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: left;
+	z-index: 1000;
+	border: 1px solid var(--primary-color);
+	height: 80px;
+	padding: 0 3%;
+	background-color: var(--background-color);
+	height: fit-content;
+	width: 100%;
+}
+
+.navitems {
+	margin: 0 1rem;
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+.navitems:hover {
+	color: var(--secondary-color);
+}
+
+header .nav-btn {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	visibility: visible;
+	opacity: 1;
+	font-size: 1.8rem;
+	padding-right: 7%;
+}
+
+header div,
+nav {
+	display: inline;
+	align-items: center;
+}
+
+nav {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.navitems {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+button {
+	font-size: 20px;
+	border: 2px solid var(--background-color);
+	padding: 20px 20px;
+	background-color: var(--background-color);
+	color: #616161;
+	cursor: pointer;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-radius: 10px;
+}
+
+button:hover {
+	color: #a39999;
+}
+
+.logo {
+	cursor: pointer;
+	height: 10vw;
+	max-height: 70px;
+	padding: 3%;
+	width: 100%;
+}
+
+@media only screen and (max-width: 3024px) {
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--background-color);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+
+	header {
+		height: auto;
+	}
+
+	.navitems {
+		font-size: 1.5rem;
+		margin-right: 0;
+	}
+
+	button {
+		font-size: 1.5rem;
+		padding: 15px 15px;
+	}
+}

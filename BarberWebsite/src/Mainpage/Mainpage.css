@@ -1,0 +1,23 @@
+.mainpage {
+    background-image: url('../assets/background.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Set height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color */
+    text-align: center;
+    width: 100%; /* Set width to 100% */
+    left: 0; /* Start from the left edge of the viewport */
+}
+
+.mainpage h1 {
+    font-size: 3rem;
+}
+
+.mainpage p {
+    font-size: 1.5rem;
+    background-color: black;
+}
