@@ -53,7 +53,7 @@ function Header() {
 
 
           <div className="navitems">
-          <a href="https://calendar.app.google/zK3Lm84F3NqSNaXb7" target="_blank" rel="noopener noreferrer" onClick={closeNavbar}>
+          <a href="https://calendar.app.google/SiMJ3u6hrH8YVCew5" target="_blank" rel="noopener noreferrer" onClick={closeNavbar}>
           <button>Book Now</button>
         </a>
           </div>

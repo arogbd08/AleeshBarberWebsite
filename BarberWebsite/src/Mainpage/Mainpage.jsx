@@ -9,7 +9,7 @@ function Mainpage() {
       <p>Are you dying in darwin by the heat? DO you want to get fresh and get all the girls? DO you wanna Become an alpha male?</p>
       <p>Visit me or make an appointment</p>
       <div className="navitems">
-        <a href="https://calendar.app.google/zK3Lm84F3NqSNaXb7" target="_blank" rel="noopener noreferrer">
+        <a href="https://calendar.app.google/SiMJ3u6hrH8YVCew5" target="_blank" rel="noopener noreferrer">
           <button>Book Now</button>
         </a>
       </div>
