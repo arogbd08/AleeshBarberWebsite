@@ -46,9 +46,9 @@ function Header() {
           
 
           <div className="navitems">
-            <Link to="/location" onClick={closeNavbar}>
-              <button>Location</button>
-            </Link>
+          <a href="https://maps.app.goo.gl/PXCEqY5UhR7DVczZ6" target="_blank" rel="noopener noreferrer" onClick={closeNavbar}>
+          <button>Location</button>
+          </a>
           </div>
 
 
