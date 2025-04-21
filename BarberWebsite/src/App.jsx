@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Mainpage from './Mainpage/Mainpage';
 import Header from './Header/Header';
 import ServicePage from './ServicesPage/Services';
-
+import "./App.css";
 
 function App() {
 

@@ -18,7 +18,8 @@ header {
 	padding: 0 3%;
 	background-color: var(--background-color);
 	height: fit-content;
-	width: 100%;
+	width: 94%;
+	border-radius: 30px;
 }
 
 .navitems {
@@ -75,8 +76,7 @@ button:hover {
 
 .logo {
 	cursor: pointer;
-	height: 10vw;
-	max-height: 70px;
+	max-height: 50px;
 	padding: 3%;
 	width: 100%;
 }

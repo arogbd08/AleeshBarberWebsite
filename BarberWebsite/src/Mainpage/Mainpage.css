@@ -3,11 +3,11 @@
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the image */
     height: 98.3vh; /* Set height to fill the viewport */
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	color: #a39999;
+	color: #333333;
     text-align: center;
     width: 100%; /* Set width to 100% */
     left: 0; /* Start from the left edge of the viewport */
@@ -23,10 +23,30 @@
 
 .mainpage p {
     
-    background-color: #1e1e1e;
+    color: #929292;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px; /* Add border-radius for curved edges */
     font-size: 1.5rem;
-    background-color: black;
+    border: 2px;
+    background-color: rgb(22, 22, 22);
+    margin-left: 10%;
+    margin-right: 5%;
 }
+
+.animation{
+    height:600px;
+    border-radius: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row; /* Ensures the elements are displayed in a row */
+    align-items: center; /* Vertically centers the items */
+    justify-content: flex-start; /* Aligns items to the left */
+    gap: 20px; /* Adds space between the elements */
+  }
+
+
+
+  
